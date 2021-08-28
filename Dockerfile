@@ -14,7 +14,7 @@ RUN \
   apk add --no-cache \
     php81-ctype \
     php81-gd \
-    php81-mysqli \
+    php81-pdo_mysql \
     php81-pdo_pgsql \
     php81-pdo_sqlite && \
   echo "**** install librespeed ****" && \
